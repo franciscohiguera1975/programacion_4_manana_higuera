@@ -1,0 +1,209 @@
+############################################
+# General
+############################################
+node_modules/
+dist/
+build/
+coverage/
+.env
+.env.*
+*.log
+*.tmp
+*.swp
+.DS_Store
+Thumbs.db
+
+############################################
+# React / React Native
+############################################
+# Dependencies
+node_modules/
+
+# Build outputs
+build/
+dist/
+
+# Metro bundler (React Native)
+.expo/
+.expo-shared/
+web-build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+############################################
+# Android / Kotlin
+############################################
+# Gradle
+.gradle/
+build/
+*/build/
+
+# Local config
+local.properties
+
+# Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Keystore
+*.jks
+*.keystore
+
+# Generated files
+captures/
+.externalNativeBuild/
+.cxx/
+
+############################################
+# Flutter
+############################################
+# Build
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+
+# IDE
+.idea/
+*.iml
+
+# Dart
+.dart_tool/
+
+# Generated
+.generated/
+flutter_export_environment.sh
+
+############################################
+# iOS (React Native / Flutter)
+############################################
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/ServiceDefinitions.json
+
+# Xcode
+*.xcworkspace
+*.xcuserdata
+*.xcuserstate
+DerivedData/
+
+############################################
+# VS Code
+############################################
+.vscode/
+
+############################################
+# Misc
+############################################
+*.lock
+*.bak
+*.orig
+
+############################################
+# UNIVERSAL (aplica en cualquier nivel)
+############################################
+**/node_modules/
+**/build/
+**/dist/
+**/coverage/
+**/.gradle/
+**/.idea/
+**/.vscode/
+**/.dart_tool/
+**/.expo/
+**/.expo-shared/
+**/Pods/
+**/.pub-cache/
+**/.pub/
+
+############################################
+# LOGS & TEMP
+############################################
+**/*.log
+**/*.tmp
+**/*.swp
+**/*.bak
+**/*.orig
+
+############################################
+# ENV FILES
+############################################
+**/.env
+**/.env.*
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+
+############################################
+# REACT / REACT NATIVE
+############################################
+**/web-build/
+
+# Metro / Expo
+**/.expo/
+**/.expo-shared/
+
+############################################
+# ANDROID / KOTLIN
+############################################
+**/local.properties
+**/*.iml
+**/*.ipr
+**/*.iws
+**/*.jks
+**/*.keystore
+**/captures/
+**/.externalNativeBuild/
+**/.cxx/
+
+############################################
+# FLUTTER
+############################################
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.packages
+**/.generated/
+**/flutter_export_environment.sh
+
+############################################
+# iOS (React Native / Flutter)
+############################################
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/ServiceDefinitions.json
+
+# Xcode
+**/*.xcworkspace
+**/*.xcuserdata
+**/*.xcuserstate
+**/DerivedData/
+
+############################################
+# SISTEMA
+############################################
+**/.DS_Store
+**/Thumbs.db
+
+############################################
+# LOCK FILES (opcional - ajusta según tu flujo)
+############################################
+**/*.lock
