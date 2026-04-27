@@ -60,4 +60,8 @@ fun main() {
     CatalogoProductos.disponibles()
         .map { it.aplicarDescuento(10.0) }
         .forEach { println("  ${it.nombre}: ${"%.2f".format(it.precio)}") }
+
+    for (producto in CatalogoProductos.listar()){
+     println("  ${producto.nombre}: ${"%.2f".format(producto.precio)}")   
+    }
 }
