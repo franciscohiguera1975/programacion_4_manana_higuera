@@ -21,4 +21,3 @@ dependencyResolutionManagement {
 
 rootProject.name = "tts"
 include(":app")
- 
